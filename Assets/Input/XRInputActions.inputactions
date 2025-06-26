@@ -1,0 +1,62 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "XRAction",
+            "id": "d6c8f4d8-ac6e-4780-a534-3a425fbf7639",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "677f82d1-a446-4a2c-9f29-33f1372d9b21",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "08ab2b06-df4a-4ab5-908a-d61ba0509b81",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Move",
+            "id": "58b322f3-abf8-40bb-9b1d-d5a6f8c1a0b8",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "c20e152a-09fb-4432-b960-8ec4719a2ec0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "107d98a0-41c6-409b-b3b5-73c57e5013e7",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
